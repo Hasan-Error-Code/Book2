@@ -1,0 +1,5 @@
+fp = open("test.txt","w")
+fp.write("Hey there this is Hasan")
+print(fp)
+fp.close()
+print(type(fp))
